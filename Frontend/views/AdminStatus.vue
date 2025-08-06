@@ -279,7 +279,7 @@ export default {
             email: user.email,
             name: user.full_name,
             is_admin: user.is_admin,
-            has_profile: !!user.profile_picture
+            has_profile: !!user.blob_name
           });
         });
         

@@ -1,6 +1,6 @@
 <script setup>
-import Header from "@/components/General/Header.vue";
-import Footer from "@/components/General/Footer.vue";
+import Header from "../components/General/Header.vue";
+import Footer from "../components/General/Footer.vue";
 import SoftwareDev from "../components/Internships/SoftwareDev.vue";
 import ResearchProgram from "../components/Internships/ResearchProgram.vue";
 import BusinessProgram from "../components/Internships/BusinessProgram.vue";

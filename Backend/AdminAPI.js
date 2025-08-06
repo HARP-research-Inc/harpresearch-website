@@ -22,7 +22,7 @@ const adminRoutes = (pool) => {
   router.get('/admin/users', isAdmin, async (req, res) => {
     try {
       const { rows } = await pool.query(
-        'SELECT email, full_name, is_admin, profile_picture FROM "Login" ORDER BY full_name'
+        'SELECT email, full_name, is_admin, blob_name FROM "Login" ORDER BY full_name'
       );
       
       res.json(rows);
